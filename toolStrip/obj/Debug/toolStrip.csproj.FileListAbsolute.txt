@@ -1,0 +1,15 @@
+C:\Users\Activcom\source\repos\toolStrip\toolStrip\bin\Debug\toolStrip.exe.config
+C:\Users\Activcom\source\repos\toolStrip\toolStrip\bin\Debug\toolStrip.exe
+C:\Users\Activcom\source\repos\toolStrip\toolStrip\bin\Debug\toolStrip.pdb
+C:\Users\Activcom\source\repos\toolStrip\toolStrip\obj\Debug\toolStrip.csproj.AssemblyReference.cache
+C:\Users\Activcom\source\repos\toolStrip\toolStrip\obj\Debug\toolStrip.Form1.resources
+C:\Users\Activcom\source\repos\toolStrip\toolStrip\obj\Debug\toolStrip.Properties.Resources.resources
+C:\Users\Activcom\source\repos\toolStrip\toolStrip\obj\Debug\toolStrip.csproj.GenerateResource.cache
+C:\Users\Activcom\source\repos\toolStrip\toolStrip\obj\Debug\toolStrip.csproj.CoreCompileInputs.cache
+C:\Users\Activcom\source\repos\toolStrip\toolStrip\obj\Debug\toolStrip.exe
+C:\Users\Activcom\source\repos\toolStrip\toolStrip\obj\Debug\toolStrip.pdb
+C:\Users\Activcom\source\repos\toolStrip\toolStrip\bin\Debug\toolStrip.exe.manifest
+C:\Users\Activcom\source\repos\toolStrip\toolStrip\bin\Debug\toolStrip.application
+C:\Users\Activcom\source\repos\toolStrip\toolStrip\obj\Debug\toolStrip.TrustInfo.xml
+C:\Users\Activcom\source\repos\toolStrip\toolStrip\obj\Debug\toolStrip.exe.manifest
+C:\Users\Activcom\source\repos\toolStrip\toolStrip\obj\Debug\toolStrip.application

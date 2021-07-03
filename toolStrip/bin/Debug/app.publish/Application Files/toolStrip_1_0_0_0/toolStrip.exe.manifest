@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="toolStrip.exe" version="1.0.0.0" publicKeyToken="5c9161da45a3823d" language="pl-PL" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="antek'smediacontrolllogo.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="toolStrip" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="toolStrip.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="toolStrip.exe" size="445424">
+      <assemblyIdentity name="toolStrip" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>KkdKCCETJWJ3dyno+sGxjIcZF4YsAIftHOdXXOYOK7A=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="antek'smediacontrolllogo.ico" size="209762">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>qmKHpP5eZYLLJLJtVhUhZeBZICoYuLN19lhYqi9NU2Y=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="toolStrip.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>R+Wg8QGvQVHX8T0ta/qbhH1bXkqY0fRnS3wBV3J0bN8=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-BHU1JGE\Activcom" issuerKeyHash="0abdadd297c69700241d97390ef2f435022e26c9" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>cXjZw+6xKulKuFS3Nt18vFUp7c6S9JVqk9isa9Ptj2c=</DigestValue></Reference></SignedInfo><SignatureValue>YrUJxDOs8d8suzVr6PAp/+18hiJuNTCKsSVmb0rFzbyTfKU/d5fTV9ZQsb0ptoSae3MrEJOvLEZi46f9gfI9/eJ7cAK+YbAnZ0jUdH9wjy3mAyhkoaL3ajQWqHu3hdcTqvy2Sg1xViBWy15JECdQiw9aKluCwSQbUEQZ0x9C9R0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vWXq2M4ySQDSbK9IPg80XDoXxqUOOEIyFbPW3O2iIQBWDCjMUrkOAGaaWpX3xlbdAfXCWGi7fzBzklj1d5LD20T/olvPZXentn9ME6MmP1HgMP2eDtobuf4jFgj+efc2CxFFrtElGdNUkb+hIABSK+ucimzR8Va2I3P/gTnFMc0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="678fedd36bacd8936a95f492ceed2955bc7cdd36b754b84ae92ab1eec3d97871" Description="" Url=""><as:assemblyIdentity name="toolStrip.exe" version="1.0.0.0" publicKeyToken="5c9161da45a3823d" language="pl-PL" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-BHU1JGE\Activcom</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>9kYoQl7mGa9iVce3ZZWg9l8yFV5KkP6b6S5AwCGf1mE=</DigestValue></Reference></SignedInfo><SignatureValue>gpjABPUDb3QKaS4OZeRPn8B/cSDvGbK4ta8qseiLd0KZAMtJmq7t4DlXUFiB+Yo8BFSsCO1/UXSHeuuBQej/g73hLELq/m7a30xKlh0C4/p2Asg3QK4OO0DJ+bXbkGCmSZRkVip7JX9BB3tiXi2Wgk8/7Yo+TcUNYwYawBcz+JU=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vWXq2M4ySQDSbK9IPg80XDoXxqUOOEIyFbPW3O2iIQBWDCjMUrkOAGaaWpX3xlbdAfXCWGi7fzBzklj1d5LD20T/olvPZXentn9ME6MmP1HgMP2eDtobuf4jFgj+efc2CxFFrtElGdNUkb+hIABSK+ucimzR8Va2I3P/gTnFMc0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB+TCCAWKgAwIBAgIQWyz7hy5XgatM1mzi2qTS3DANBgkqhkiG9w0BAQsFADA7MTkwNwYDVQQDHjAARABFAFMASwBUAE8AUAAtAEIASABVADEASgBHAEUAXABBAGMAdABpAHYAYwBvAG0wHhcNMjEwNjMwMTM1OTU4WhcNMjIwNjMwMTk1OTU4WjA7MTkwNwYDVQQDHjAARABFAFMASwBUAE8AUAAtAEIASABVADEASgBHAEUAXABBAGMAdABpAHYAYwBvAG0wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAL1l6tjOMkkA0myvSD4PNFw6F8alDjhCMhWz1tztoiEAVgwozFK5DgBmmlqV98ZW3QH1wlhou38wc5JY9XeSw9tE/6Jbz2V3p7Z/TBOjJj9R4DD9ng7aG7n+IxYI/nn3NgsRRa7RJRnTVJG/oSAAUivrnIps0fFWtiNz/4E5xTHNAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAcRDSHTXfZh+A3lA1LCdx5RU+LBIcpE/PY6MHi90kFAXVj6V6KNmykMnYItXUGIC0yRmmy118ZhSj08m8wmgahLKXCW/p5xL2xAWYmKXiK9z5Gfoa3nQZ9AvG94+rRYwS5KojYVK5qcgnY3Gg5w85dHuwgTmw1fAO52wHdbgiw+s=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
